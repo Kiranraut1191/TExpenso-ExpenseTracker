@@ -102,10 +102,10 @@ TExpenso-ExpenseTracker/
 ### 🔐 Login Page
 ![Login](https://github.com/user-attachments/assets/6bf8bcb6-0558-42b0-8ed4-e0187378d286)
 
-### 🏠 Dashboard
+### 🏠 Send Money
 ![Dashboard](https://github.com/user-attachments/assets/cb9bf978-3a46-4562-bfec-42daf1858b65)
 
-### 💸 Add Expense
+### 💸 All Transactions 
 ![Add Expense](https://github.com/user-attachments/assets/6d829228-2098-44d6-9b8c-bc271b222d9f)
 
 ### 📊 Balance Overview
