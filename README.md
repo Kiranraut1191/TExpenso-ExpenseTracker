@@ -97,6 +97,24 @@ TExpenso-ExpenseTracker/
 | GET    | `/api/expense/getbyDate/{id}/...` | Get expenses by date |
 
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](https://github.com/user-attachments/assets/6bf8bcb6-0558-42b0-8ed4-e0187378d286)
+
+### 🏠 Dashboard
+![Dashboard](https://github.com/user-attachments/assets/cb9bf978-3a46-4562-bfec-42daf1858b65)
+
+### 💸 Add Expense
+![Add Expense](https://github.com/user-attachments/assets/6d829228-2098-44d6-9b8c-bc271b222d9f)
+
+### 📊 Balance Overview
+![Balance](https://github.com/user-attachments/assets/f325a210-9bf7-4452-9471-5a4619430a45)
+
+### 👥 User Management
+![Users](https://github.com/user-attachments/assets/f5cfa353-812e-4738-8793-687c5328af42)
+
+
 
 ## 📬 Contact
 
