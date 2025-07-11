@@ -1,0 +1,53 @@
+/* Style for the container */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Loading text style */
+  ng-template p {
+    text-align: center;
+    font-size: 18px;
+    color: #FF5722;
+    font-style: italic;
+  }
+  
+  /* Style for the list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each list item */
+  li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for each balance detail */
+  p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  strong {
+    color: #4CAF50;
+  }
+  
+  /* If you want to add a border around the container */
+  div {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,57 @@
+<style>
+    body {
+      background-color: #1a1a1a; /* Dark with soft tone */
+      color: #ffffff; /* White text */
+      font-family: Arial, sans-serif;
+    }
+  
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: #2c2c2c; /* Light dark background for table */
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    }
+  
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #444; /* Slightly lighter border */
+      color: #ffffff; /* Force white text inside */
+    }
+  
+    th {
+      background-color: #3a3a3a; /* Slightly lighter than table background */
+      font-weight: bold;
+    }
+  
+    tr:hover {
+      background-color: #444444; /* Light shade on hover */
+    }
+  
+    tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+  <table>
+    <tbody>
+      <tr>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Status</th>  
+
+      </tr>
+      <tr *ngFor="let user of Users">
+        <td>{{ user.description }}</td>
+        <td>{{ user.amount }}</td>
+        <td>{{ user.date }}</td>
+        <td>{{ user.status }}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+  <app-balance></app-balance>
+  

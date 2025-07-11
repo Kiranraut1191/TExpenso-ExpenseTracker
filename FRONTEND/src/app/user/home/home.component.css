@@ -1,0 +1,44 @@
+/* Full screen layout */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* Description text */
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0 30px;
+  color: #cccccc;
+}
+
+/* Logout link styling */
+a[routerLink="/login"] {
+  display: block;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+a[routerLink="/login"]:hover {
+  background-color: #e03570;
+}

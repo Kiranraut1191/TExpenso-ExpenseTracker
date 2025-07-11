@@ -1,0 +1,10 @@
+
+<div *ngIf="Users; else loading">
+    <h1>User Balance: {{Users}}</h1>
+    
+  </div>
+  
+  <ng-template #loading>
+    <p>Loading user balance data...</p>
+  </ng-template>
+  

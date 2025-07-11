@@ -1,0 +1,82 @@
+/* General Page Styles */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section Heading */
+h2 {
+  text-align: center;
+  margin: 30px auto 10px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* Sort Button */
+h2 button {
+  margin-left: 15px;
+  padding: 8px 16px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+h2 button:hover {
+  background-color: #e03570;
+}
+
+/* Table Container */
+table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+/* Table Header */
+th {
+  background-color: #292929;
+  color: #f0f0f0;
+  font-weight: 600;
+  padding: 16px 12px;
+  font-size: 16px;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+/* Table Body */
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #333;
+  color: #e0e0e0;
+  font-size: 15px;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #2e2e2e;
+  transition: background-color 0.2s ease;
+}
+
+/* Remove bottom border from last row */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Optional status color (if used later) */
+td.status-success {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+td.status-failed {
+  color: #f44336;
+  font-weight: bold;
+}

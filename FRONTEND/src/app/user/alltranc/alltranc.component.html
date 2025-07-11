@@ -1,0 +1,77 @@
+<h2 style="color: rgb(17, 2, 2); text-align: center; margin-top: 20px;">
+  All Transactions 
+  <button (click)="redirectgetDates()">Sort by Date</button>
+</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of Users">
+      <td>{{ user.description }}</td>
+      <td>{{ user.amount }}</td>
+      <td>{{ user.date }}</td>
+      <td>{{ user.status }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ❌ Removed app-navbar, app-sidebar, and app-balance -->
+
+<style>
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+    color: #ffffff;
+  }
+
+  th {
+    background-color: #3a3a3a;
+    font-weight: bold;
+  }
+
+  tr:hover {
+    background-color: #444444;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  h2 button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  h2 button:hover {
+    background-color: #e03570;
+  }
+</style>

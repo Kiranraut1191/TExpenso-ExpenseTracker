@@ -1,0 +1,15 @@
+<body>
+    <form #recivemoneydata="ngForm" (ngSubmit)="recivePenny(recivemoneydata)" class="expense-form">
+        <div class="form-group">
+            <label for="startDate">StartDate</label>
+            <input type="date" [(ngModel)]="startDate" id="startDate" name="startDate" required />
+        </div>
+    
+        <div class="form-group">
+            <label for="endDate">EndDate</label>
+            <input type="date" [(ngModel)]="endDate" id="endDate" name="endDate" required />
+        </div>
+    
+        <button type="submit">Submit Expense</button>
+    </form>
+</body>

@@ -1,0 +1,57 @@
+/* General page style */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table styling */
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Table headers */
+th {
+  background-color: #3a3a3a;
+  color: #f0f0f0;
+  font-weight: bold;
+  padding: 16px 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Table rows */
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #444;
+  font-size: 15px;
+  color: #ddd;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #3e3e3e;
+  transition: background-color 0.3s ease;
+}
+
+/* Last row fix */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Status color coding (optional) */
+td.status-success {
+  color: #00c853; /* Green for success */
+  font-weight: bold;
+}
+
+td.status-failed {
+  color: #ff5252; /* Red for failure */
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+/* Container for the whole component */
+:host {
+  display: block;
+  padding: 30px;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading or paragraph message */
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  padding: 12px 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #e6f7ff;
+  transition: background-color 0.3s;
+}
+
+/* Optional: Style the 'Status' column */
+.table td:last-child {
+  font-weight: bold;
+  color: #007bff;
+}
